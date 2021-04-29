@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">acmapp</string>
+    <string name="btn_about">Aboout</string>
+    <string name="btn_main">Home</string>
+</resources>
