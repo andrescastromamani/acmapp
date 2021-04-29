@@ -8,19 +8,9 @@ import android.view.View;
 import android.widget.Button;
 
 public class AboutActivity extends AppCompatActivity {
-
-    Button btnMain;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
-        btnMain = findViewById(R.id.btnMain);
-        btnMain.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(AboutActivity.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 }
