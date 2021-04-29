@@ -33,7 +33,7 @@
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/hint_name"
@@ -45,7 +45,7 @@
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/hint_email"
@@ -54,27 +54,27 @@
             android:textSize="24sp" />
 
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/deptos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:entries="@array/deptos" />
 
         <EditText
             android:id="@+id/address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:ems="10"
             android:hint="@string/hint_address"
             android:inputType="textMultiLine"
-            android:lines="5" />
+            android:lines="2" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="0dp"
             android:text="Horario"
             android:textAlignment="center"
             android:textSize="24sp" />
@@ -82,7 +82,7 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:orientation="horizontal">
 
             <RadioButton
@@ -102,7 +102,7 @@
             android:id="@+id/btnsave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:text="Guardar" />
 
     </LinearLayout>
