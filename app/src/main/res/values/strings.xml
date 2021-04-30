@@ -4,4 +4,6 @@
     <string name="hint_name">Introduce Tu Nombre</string>
     <string name="hint_email">Introduce Tu Email</string>
     <string name="hint_address">Introduce Tu Direccion</string>
+
+    <string name="btnCamera">Camara</string>
 </resources>

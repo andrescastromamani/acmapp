@@ -16,7 +16,7 @@ public class HomeActivity extends AppCompatActivity {
     EditText name, email, address;
     Spinner deptos;
     RadioButton full, halftime;
-    Button btnSave;
+    Button btnSave, btnCamera;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +28,8 @@ public class HomeActivity extends AppCompatActivity {
         full = findViewById(R.id.full);
         halftime = findViewById(R.id.halftime);
         btnSave = findViewById(R.id.btnsave);
+
+        btnCamera = findViewById(R.id.btnCam);
 
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +51,13 @@ public class HomeActivity extends AppCompatActivity {
                     intent.putExtra("timetable",timeTable);
                     startActivity(intent);
                 }
+            }
+        });
+        btnCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this,CameraActivity.class);
+                startActivity(intent);
             }
         });
     }
